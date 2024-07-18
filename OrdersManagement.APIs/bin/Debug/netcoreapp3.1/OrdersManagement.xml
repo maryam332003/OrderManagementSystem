@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrdersManagement.APIs</name>
+    </assembly>
+    <members>
+        <member name="T:OrdersManagement.APIs.Controllers.CustomerController">
+            <summary>
+            API Controller to manage Customers 
+            </summary>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.CustomerController.AddCustomer(OrdersManagement.Core.Dtos.CustomerDto)">
+            <summary>
+            Add New Customer.
+            </summary>
+            <param name="customerDto">Customer details.</param>
+            <returns>Created Customer Details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.CustomerController.GetCustomerOrders(System.Int32)">
+            <summary>
+            Retrieves Customer Orders
+            </summary>
+            <param name="customerId">Customer ID.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="T:OrdersManagement.APIs.Controllers.InvoiceController">
+            <summary>
+            API Controller to Manage Invoices.
+            </summary>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.InvoiceController.GetAll">
+            <summary>
+            Retrieves all Invoices.
+            </summary>
+            <returns>List of Invoices.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.InvoiceController.GetInvoiceById(System.Int32)">
+            <summary>
+            Retrieves an invoice by ID.
+            </summary>
+            <param name="InvoiceId">Invoice ID.</param>
+            <returns>Invoice Details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.CreateOrder(OrdersManagement.Core.Dtos.OrderDto)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="orderDto">The order data transfer object containing order details.</param>
+            <returns>The created order.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.GetAllOrders">
+            <summary>
+            Gets all orders.
+            </summary>
+            <returns>A list of all orders.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.GetOrderById(System.Int32)">
+            <summary>
+            Gets an order by ID.
+            </summary>
+            <param name="orderId">The ID of the order.</param>
+            <returns>The order details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.UpdateOrderStatus(System.Int32,OrdersManagement.Core.Enums.OrderStatusEnum)">
+            <summary>
+            Updates the status of an order.
+            </summary>
+            <param name="orderId">The ID of the order.</param>
+            <param name="status">The new status of the order.</param>
+            <returns>Action result indicating the outcome of the update operation.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.ProductsController.GetAllProducts">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns>A list of all products.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Retrieves a specific product by ID.
+            </summary>
+            <param name="id">The ID of the product to retrieve.</param>
+            <returns>The product details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.ProductsController.AddProduct(OrdersManagement.Core.Dtos.ProductDto)">
+            <summary>
+            Adds a new product.
+            </summary>
+            <param name="model">The product details to add.</param>
+            <returns>The added product details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.ProductsController.UpdateProduct(OrdersManagement.Core.Dtos.ProductDto)">
+            <summary>
+            Updates an existing product.
+            </summary>
+            <param name="updatedProduct">The updated product details.</param>
+            <returns>The updated product details.</returns>
+        </member>
+        <member name="T:OrdersManagement.APIs.Controllers.UserController">
+            <summary>
+            API Controller for user management operations.
+            </summary>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.UserController.Register(OrdersManagement.Core.Dtos.RegisterDto)">
+            <summary>
+            Registers a new user.
+            </summary>
+            <param name="model">The Registration Details.</param>
+            <returns>The Registered User Details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.UserController.Login(OrdersManagement.Core.Dtos.LoginDto)">
+            <summary>
+            Logs in a user.
+            </summary>
+            <param name="model">The login credentials.</param>
+            <returns>The logged-in user details with authentication token.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.UserController.CheckEmailExists(System.String)">
+            <summary>
+            Checks if an email exists in the user database.
+            </summary>
+            <param name="email">The email address to check.</param>
+            <returns>True if the email exists; false otherwise.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|c:\\users\\ht\\onedrive\\desktop\\task\\orders management\\ordersmanagement.apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|solutionrelative:ordersmanagement.apis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|c:\\users\\ht\\onedrive\\desktop\\task\\orders management\\ordersmanagement.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|solutionrelative:ordersmanagement.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A45E8029-7220-49C2-A39F-46C75F20A131}|OrdersManagement.Service\\OrdersManagement.Service.csproj|c:\\users\\ht\\onedrive\\desktop\\task\\orders management\\ordersmanagement.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A45E8029-7220-49C2-A39F-46C75F20A131}|OrdersManagement.Service\\OrdersManagement.Service.csproj|solutionrelative:ordersmanagement.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EEED5C7-5C68-4D08-9482-A39BFFAFE7B4}|OrdersManagement.Core\\OrdersManagement.Core.csproj|c:\\users\\ht\\onedrive\\desktop\\task\\orders management\\ordersmanagement.core\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEED5C7-5C68-4D08-9482-A39BFFAFE7B4}|OrdersManagement.Core\\OrdersManagement.Core.csproj|solutionrelative:ordersmanagement.core\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|c:\\users\\ht\\onedrive\\desktop\\task\\orders management\\ordersmanagement.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D845B068-8D5C-4A3B-AA3B-1C69B747C76C}|OrdersManagement.APIs\\OrdersManagement.APIs.csproj|solutionrelative:ordersmanagement.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "OrdersManagement.APIs\\Program.cs",
+              "ToolTip": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Program.cs",
+              "RelativeToolTip": "OrdersManagement.APIs\\Program.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAQwJYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T18:00:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrdersManagement.Core\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "OrdersManagement.Core\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:49:45.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "OrdersManagement.Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\EmailService.cs",
+              "RelativeToolTip": "OrdersManagement.Service\\EmailService.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:19:52.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrdersManagement.APIs\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrdersManagement.APIs\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAmwJcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:42:53.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "OrdersManagement.APIs\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.APIs\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "OrdersManagement.APIs\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:41:02.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

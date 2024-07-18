@@ -1,0 +1,241 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\OrdersManagement.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj",
+        "projectName": "OrdersManagement.Core",
+        "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\ht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\OrdersManagement.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\OrdersManagement.Repository.csproj",
+        "projectName": "OrdersManagement.Repository",
+        "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\OrdersManagement.Repository.csproj",
+        "packagesPath": "C:\\Users\\ht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\OrdersManagement.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\OrdersManagement.Service.csproj",
+        "projectName": "OrdersManagement.Service",
+        "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\OrdersManagement.Service.csproj",
+        "packagesPath": "C:\\Users\\ht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Core\\OrdersManagement.Core.csproj"
+              },
+              "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\OrdersManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\ht\\OneDrive\\Desktop\\Task\\Orders Management\\OrdersManagement.Repository\\OrdersManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

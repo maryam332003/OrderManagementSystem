@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrdersManagement.APIs</name>
+    </assembly>
+    <members>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.CreateOrder(OrdersManagement.Core.Dtos.OrderDto)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="orderDto">The order data transfer object containing order details.</param>
+            <returns>The created order.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.GetOrderById(System.Int32)">
+            <summary>
+            Gets an order by ID.
+            </summary>
+            <param name="orderId">The ID of the order.</param>
+            <returns>The order details.</returns>
+        </member>
+        <member name="M:OrdersManagement.APIs.Controllers.OrderController.UpdateOrderStatus(System.Int32,OrdersManagement.Core.Enums.OrderStatusEnum)">
+            <summary>
+            Updates the status of an order.
+            </summary>
+            <param name="orderId">The ID of the order.</param>
+            <param name="status">The new status of the order.</param>
+            <returns>Action result indicating the outcome of the update operation.</returns>
+        </member>
+    </members>
+</doc>
